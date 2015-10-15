@@ -35,3 +35,9 @@ header {
 li {
   list-style-type: none;
 }
+
+@media only screen and (min-width: 25em) {
+  nav li {
+    display:inline-block;
+}
+}
