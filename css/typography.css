@@ -1,0 +1,105 @@
+
+
+@media only screen and (min-width: 60em){
+  html {
+    font-size: 110%;
+  }
+}
+
+@media only screen and (min-width: 90em){
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 120em){
+  html {
+    font-size: 130%;
+  }
+}
+
+h1,h2,h3,h4,h5,h6,
+p,ul,ol,dl,figure,blockquote,
+table,hr {
+  margin: 0 0 1.5rem 0;
+}
+.yotta {
+  font-size: 2.28rem;
+  line-height: 1.316;
+}
+
+.zetta  {
+  font-size:2.027rem;
+  line-height: 1.48;
+}
+h1, .exa {
+ font-size: 1.802rem;
+ line-height: 1.6648;
+}
+
+h2, .peta {
+  font-size: 1.602rem;
+  line-height: 1.8729;
+}
+
+h3, .tera {
+ font-size: 1.424rem;
+ line-height: 1.0535;
+}
+
+h4, .giga {
+ font-size: 1.266rem;
+ line-height: 1.1852;
+}
+
+h5, .mega  {
+ font-size: 1.125rem;
+ line-height: 1.3333;
+}
+
+h6, .kilo {
+  font-size: 1rem;
+  line-height: 1.5000;
+}
+
+.milli {
+  font-size: 0.889rem;
+  line-height: 1.6875;
+}
+
+.micro {
+  font-size:0.79rem;
+  line-height: 1.8984;
+}
+
+.push {
+  margin-bottom: 1.5rem;
+}
+
+.push-half {
+  margin-bottom: .75rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 1.5rem;
+}
+
+.pad-bottom, .pad-b {
+  padding-bottom: 1.5rem;
+}
+
+.pad-top-double .pad-t-2 {
+  padding-top: 3rem;
+}
+
+.pad-bottom-double .pad-b-2 {
+  padding-bottom: 3rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+  padding-top: .75rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: .75rem;
+}
