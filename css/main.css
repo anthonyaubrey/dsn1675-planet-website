@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  line-height: 1.25;
+  line-height: 1.5;
   box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -43,16 +43,29 @@ li {
 .margin{
 margin-right: -1em;
  }
+
  a{
  	text-decoration: none;
  }
-
-
+nav ol {
+  padding: 0;
+  text-align: left;
+}
 
 @media only screen and (min-width: 25em) {
   nav li {
     display:inline-block;
-}
+    }
+  nav ol {
+    text-align: left;
+  }
+
+ nav {
+   text-align: center;
+ }
+ header {
+   text-align: center;
+ }
 }
 
 @media only screen and (min-width: 38em) {
@@ -61,4 +74,46 @@ nav h1 {
   text-align: left;
 }
 
+}
+
+.topbottom {
+  padding-bottom: 1.5em;
+}
+
+.marginleft {
+  margin-left: 1.5rem;
+}
+
+.lightcol {
+  background-color: lightgrey;
+}
+
+ dd {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+.marg {
+  margin: 1.25em;
+}
+
+.center {
+  text-align: center;
+}
+
+header li {
+  padding: 1em;
+  margin: .5em;
+}
+
+header li:hover{
+  background-color: #1579db;
+}
+
+header a:hover{
+  color: white;
+}
+
+.margleft {
+  margin-left: 1em;
 }
