@@ -52,6 +52,9 @@ nav ol {
   text-align: left;
 }
 
+.pad {
+  padding: 1em;
+}
 @media only screen and (min-width: 25em) {
   nav li {
     display:inline-block;
