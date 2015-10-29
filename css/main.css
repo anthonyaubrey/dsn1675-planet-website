@@ -41,12 +41,10 @@ nav ol {
     display:inline-block;
     }
   nav ol {
-    text-align: left;
+    text-align: center;
+    display: inline-block;
   }
 
- nav {
-   text-align: center;
- }
  header {
    text-align: center;
  }
